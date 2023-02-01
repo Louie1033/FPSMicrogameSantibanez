@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 167235208980905173}
   m_Father: {fileID: 0}
@@ -80,7 +81,8 @@ MonoBehaviour:
   RotatingSpeed: 360
   PickupSfx: {fileID: 8300000, guid: 6f3e0904bbbace745bdef08cdbcdfec0, type: 3}
   PickupVfxPrefab: {fileID: 0}
-  WeaponPrefab: {fileID: 7420507074026156445}
+  WeaponPrefab: {fileID: 2559777136729043634, guid: e1595ddb26b2b954da5c9d082b75cb67,
+    type: 3}
 --- !u!1 &7696458092355651969
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,100 +109,84 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 836426762947861942}
+  - {fileID: 414746084687436086}
   m_Father: {fileID: 5391986374566301942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1547286880459577830
+--- !u!1001 &4134379592894597249
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 167235208980905173}
     m_Modifications:
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19699955
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.264
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.079
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.85868055
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.23189516
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.21820396
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.40159613
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -34.995003
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 13.302001
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 45.920002
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225486910712267859, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+    - target: {fileID: 4368840219720159672, guid: e1595ddb26b2b954da5c9d082b75cb67,
         type: 3}
       propertyPath: m_Name
-      value: Weapon_SniperRifle
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090847488450120274, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 1.5
+      value: Weapon_BurstRifle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a3d20718f5f4f9147b1a38a1d1821ad2, type: 3}
---- !u!4 &836426762947861942 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: e1595ddb26b2b954da5c9d082b75cb67, type: 3}
+--- !u!4 &414746084687436086 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2225486910712267856, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
+  m_CorrespondingSourceObject: {fileID: 4368840219720159671, guid: e1595ddb26b2b954da5c9d082b75cb67,
     type: 3}
-  m_PrefabInstance: {fileID: 1547286880459577830}
+  m_PrefabInstance: {fileID: 4134379592894597249}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7420507074026156445 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8323776800172828795, guid: a3d20718f5f4f9147b1a38a1d1821ad2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1547286880459577830}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ad90ba0b1477764da373f5ec01a8cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
